@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #e7e7e7;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.calculator-area{
+    width: 350px;
+    padding: 30px 20px;
+    /* background: #fff; */
+    border-radius: 10px;
+    box-shadow: 8px 8px 16px gray;
+}
+.cal-display{
+    text-align: center;
+}
+.cal-display input{
+    width: 300px;
+    height: 60px;
+    padding: 0 25px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    border: none;
+    border-radius: 30px;
+    background: #e7e7e7;
+    color: rgb(90, 89, 89);
+    box-shadow: inset 6px 6px 10px #00000070,
+     inset -6px -6px 10px #ffffff;
+}
+.cal-display input:focus{
+    border: none;
+    outline: none;
+}
+.cal-body{
+    /* width: 100%; */
+    margin-top: 20px;
+    text-align: center;
+}
+.cal-body input{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    background: #e7e7e7;
+    color: #000000;
+    box-shadow: 6px 6px 10px #00000070,
+     -6px -6px 10px #ffffff;
+     cursor: pointer;
+}
+.cal-body input:focus{
+    border: none;
+    outline: none;
+}
+.cal-body input:active{
+    color: rgb(90, 89, 89);
+    box-shadow: inset 6px 6px 10px #00000070,
+     inset -6px -6px 10px #ffffff;
+}
